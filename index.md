@@ -7,15 +7,8 @@ profile:
 published: true
 ---
 
-[Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
+Ethan Goldstein is a seasoned data engineering and business intelligence professional with over 6 years of experience transforming raw data into actionable insights. With expertise in Python, SQL, Power BI, and Tableau, Ethan thrives at turning complex datasets and processes into seamless, automated reports and integrations that deliver measurable business value. One of his recent integration projects is expected to save 240 hours of labour annually over the next four years. 
 
-If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
+Beyond the code, Ethan explores Toronto’s cycling trails or innovates at home, tinkering with the latest home automations to streamline his morning routine. 
 
-The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the `_config.yml` file to link your accounts.
-
-PS: If you liked the theme, do star it on GitHub!
-
-### Also, check out:
-
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
+Want to collaborate or geek out over data? Let’s connect!
