@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Click to Redirect to Project
-description: with no page entry here
-redirect: https://unsplash.com
+title: Healthy Food Accessibility Dashboard
+description: Interactive dashboard demonstrating how policy changes affect mRFEI, a relative measure of access to healthy food.
+redirect: https://public.tableau.com/app/profile/ethan.goldstein/viz/FoodDesertAnalysisDashboard/Dashboard
+image: /assets/images/projects/HealthyFoodAccessibility.png
 ---
