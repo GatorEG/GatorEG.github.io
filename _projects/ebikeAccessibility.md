@@ -1,18 +1,15 @@
 ---
 layout: post
-title: Toronto e-bike availability
-description: Factors Affecting e-bike Availability Across Toronto Bike Share
+title: \[e]Bike Share Toronto
+description: Factors Affecting e-bike Availability Across Bike Share Toronto
 ---
-
-# Toronto [e]Bike Share
-# Factors Affecting e-bike Availability Across Toronto Bike Share
 
 Ethan Goldstein, Rishabh Surana, Caitlin Zaragosa  
 Group 132 Final Project, Winter 2023  
 ISYE 7406 - Data Mining and Statistical Learning  
 
 **Note to readers:**
-This analysis was conducted before Toronto Bike Share [modernized its pricing structure in April 2023](https://bikesharetoronto.com/news/recommended-pricing-changes-2023/) and may no longer repersent ebike availablilty in the downtown core. 
+This analysis was conducted before Bike Share Toronto [modernized its pricing structure in April 2023](https://bikesharetoronto.com/news/recommended-pricing-changes-2023/) and may no longer repersent ebike availablilty in the downtown core. 
 
 ## Abstract
 This project evaluated various data mining models on their ability to predict e-bike availability in
@@ -50,8 +47,7 @@ Our objective is to conduct data analysis to assess how neighborhood type (comme
 By doing so, we aim to provide individuals with the necessary information to make a more informed decision about when to rent a bike based on their preferences and the neighborhood they are in.
 
 ## Data Preparation & Cleaning
-Bike Share Toronto (BST) provides an open data feed that contains information on the status of the system and the availability of bikes at each station. This data will be integrated with public GIS data to group the
-stations into neighborhoods.  
+Bike Share Toronto (BST) provides an open data feed that contains information on the status of the system and the availability of bikes at each station. This data will be integrated with public GIS data to group the stations into neighborhoods.  
 
 To create our data catalog, we will gather data every 15 minutes for an entire week, focusing on stations located in 28 distinct neighborhoods in the downtown region.  
 
