@@ -1,6 +1,6 @@
 ---
 layout: post
-title: \[e]Bike Share Toronto
+title: [e]Bike Share Toronto
 description: Factors Affecting e-bike Availability Across Bike Share Toronto
 ---
 
