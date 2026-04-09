@@ -14,6 +14,6 @@ The dashboard and its predictions are powered by a recursive partitioning tree c
 Python and SQLite were used for data cleaning, while the recursive partition tree was built in R. The interactive dashboard was built in Tableau and can be viewed at the link below:  
 [https://public.tableau.com/app/profile/ethan.goldstein/viz/FoodDesertAnalysisDashboard/Dashboard]([https://public.tableau.com/app/profile/ethan.goldstein/viz/FoodDesertAnalysisDashboard/Dashboard)
 
-![food deserts dashboard](../assets/images/HealthyFoodAccessibility_Dashboard.png)
+![food deserts dashboard]({{ site.url }}{{ site.baseurl }}/assets/images/HealthyFoodAccessibility_Dashboard.png)
 
-![Food deserts poster](../assets/images/HealtyFoodAccessibility_Poster.jpeg)
+![Food deserts poster]({{ site.url }}{{ site.baseurl }}/assets/images/HealtyFoodAccessibility_Poster.jpeg)
