@@ -9,7 +9,7 @@ Group 132 Final Project, Winter 2023
 ISYE 7406 - Data Mining and Statistical Learning  
 
 **Note to readers:**
-This analysis was conducted before Bike Share Toronto [modernized its pricing structure in April 2023](https://bikesharetoronto.com/news/recommended-pricing-changes-2023/) and may no longer repersent ebike availablilty in the downtown core. 
+This analysis was conducted before Bike Share Toronto [modernized its pricing structure in April 2023](https://bikesharetoronto.com/news/recommended-pricing-changes-2023/) and may no longer repersent e-bike availablilty in the downtown core. 
 
 ## Abstract
 This project evaluated various data mining models on their ability to predict e-bike availability in
