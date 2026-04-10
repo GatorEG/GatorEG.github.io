@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="//assets/css/main.css">
+
+        <h1 class="post-headline">Etthan Goldstein</h1>
+        <h3 class="post-description">Data & Advanced Analytics Professional</h3>
+
+        <div class="links scroll">
+        <a href="//">Home</a>
+        <a href="//projects/">Projects</a>
+        <!-- Fix these later
+        <a href="//blog/">Blog</a>
+        <a href="//archive/">Archive</a>
+-->
+</div>
+
+
+        <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Healthy Food Accessibility Dashboard | Etthan Goldstein</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Healthy Food Accessibility Dashboard" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Interactive dashboard demonstrating how policy changes affect mRFEI, a relative measure of access to healthy food." />
+<meta property="og:description" content="Interactive dashboard demonstrating how policy changes affect mRFEI, a relative measure of access to healthy food." />
+<link rel="canonical" href="https://gatoreg.github.io/projects/healthyfoodaccessibility/" />
+<meta property="og:url" content="https://gatoreg.github.io/projects/healthyfoodaccessibility/" />
+<meta property="og:site_name" content="Etthan Goldstein" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-04-10T04:02:51+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Healthy Food Accessibility Dashboard" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-04-10T04:02:51+00:00","datePublished":"2026-04-10T04:02:51+00:00","description":"Interactive dashboard demonstrating how policy changes affect mRFEI, a relative measure of access to healthy food.","headline":"Healthy Food Accessibility Dashboard","mainEntityOfPage":{"@type":"WebPage","@id":"https://gatoreg.github.io/projects/healthyfoodaccessibility/"},"url":"https://gatoreg.github.io/projects/healthyfoodaccessibility/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+        <!-- insert favicons, used https://realfavicongenerator.net/ -->
+<link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/assets/favicon/site.webmanifest" />
+
+
+        <!-- MathJax -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+     processEscapes: true
+    }
+  });
+</script>
+
+
+        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
+        <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v6.7.2/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+
+    </head>
+
+    <body>
+        <main>
+            <article>
+                <h1 class="post-headline">Healthy Food Accessibility Dashboard</h1>
+<p class="meta"><small>April 10, 2026</small></p>
+
+<p><strong>Team 12 Final Project, Spring 2024  <br>
+CSE 6242 Data and Visual Analytics, Georgia Institute of Technology</strong></p>
+
+<p>The healthy food accessiblilty dashboard is a tool to provide US policymakers a visual representation of food deserts in their state, county, or census tract of interest. Policymakers may use the dashboard to see how four statistically significant planning metrics may be adjusted to reduce the food desert effect, as measured through the modified Retail Food Environment Index (mRFEI).</p>
+
+<p>The dashboard and its predictions are powered by a recursive partitioning tree containing 24 terminal nodes, each of which uses a distinct linear regression to predict the effects of our four controllable variables. Census tracts are grouped into nodes based on statistically significant differences in their demographics. Please see the project poster below for more information.</p>
+
+<p>Python and SQLite were used for data cleaning, while the recursive partition tree was built in R. The interactive dashboard was built in Tableau and can be viewed at the link below:<br>
+<a href="https://public.tableau.com/app/profile/ethan.goldstein/viz/FoodDesertAnalysisDashboard/Dashboard" target="_blank" rel="noopener noreferrer">https://public.tableau.com/app/profile/ethan.goldstein/viz/FoodDesertAnalysisDashboard/Dashboard</a></p>
+
+<p><img src="https://GatorEG.github.io//assets/images/HealthyFoodAccessibility_Dashboard.png" alt="food deserts dashboard"></p>
+
+<p><img src="https://GatorEG.github.io//assets/images/HealtyFoodAccessibility_Poster.jpeg" alt="Food deserts poster"></p>
+
+
+<!-- Comments only for posts -->
+
+
+            </article>
+        </main>
+
+        <footer>
+          <p class="copy">
+            <small> © Etthan Goldstein 2026
+                    | Powered by Jekyll and
+                    <a target="_blank" href="https://github.com/jitinnair1/gradfolio/" rel="noopener noreferrer">Gradfolio</a>.
+                    Last updated on April 10th, 2026
+            </small>
+          </p>
+
+        <div class="rounded-social-buttons">
+<a title="" class="social-button linkedin" href="https://www.linkedin.com/in/ethangoldstein" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-linkedin"></i>
+</a><a title="" class="social-button github" href="https://www.github.com/GatorEG" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-github"></i>
+</a>
+</div>
+
+
+        </footer>
+
+        <!-- Google Analytics Tracking code -->
+<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
+<script>
+var galite = galite || {};
+galite.UA = '';
+</script>
+
+    </body>
+
+</html>
